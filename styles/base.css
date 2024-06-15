@@ -1,4 +1,3 @@
- @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
  --primary-color: #396E94;
@@ -6,17 +5,23 @@
  --accent1-color: #c9bfc4;
  --accent2-color: #a43312;
 
- --heading-font: "PT Serif", serif;
- --paragraph-font: "Roboto", sans-serif;
  --nav-background-color: #AABD8C;
   --nav-link-color: #396E94;
   --nav-hover-link-color: #37698d; 
  --nav-hover-background-color: #ffd000;
 }
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-weight: 100; 
+}
 *{
  margin-left:5px ;
  padding: 0 ;
  box-sizing: border-box;
+
 }
 header { 
     background-color: #3a3b3b; 
@@ -34,7 +39,9 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
 }
-
+nav a:hover {
+    text-decoration:none;
+}
 nav a {
     display: block;
     color: #ffff;
@@ -58,7 +65,7 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.card h1,h2{
+.card h1{
     background-color: #36454f;
     color:white ;
     display: flex;
