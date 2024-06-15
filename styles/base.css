@@ -58,22 +58,18 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.card h1{
+.card h1,h2{
     background-color: #36454f;
     color:white ;
     display: flex;
     justify-content: center;
     padding: 20px; 
-  }
-
-.card h1 {
-    color: white;
-} 
+  } 
 .one img{
     float: right;
     margin: 10px;
       }
-      h2 {
+      h3 {
         display: flex;
         justify-content: center;
         border-bottom:  solid 1px #36454f;
