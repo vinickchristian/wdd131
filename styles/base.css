@@ -42,7 +42,8 @@ header h1 {
     justify-content: space-evenly;
 }
 nav a:hover {
-    text-decoration:none;
+    text-decoration:underline;
+    color: yellow;
 }
 nav a {
     display: block;
