@@ -68,7 +68,7 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.card h1{
+.card h2{
     background-color: #36454f;
     color:white ;
     display: flex;
@@ -79,7 +79,7 @@ nav a {
     float: right;
     margin: 10px;
       }
-      h3 {
+      h4 {
         display: flex;
         justify-content: center;
         border-bottom:  solid 1px #36454f;
