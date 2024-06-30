@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Miamo siedjouwa vinick C., WDD 131 - Dynamic Web Fundamentals, Biography of my self">
+    <meta name="author" content="Miamo siedjouwa vinick">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Cameroon</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <img 
+            src="images/hero-large.webp" 
+            srcset="images/hero-small.webp 480w, images/hero-large.webp 1200w" 
+            sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px" 
+            alt="Elephane" 
+            class="main-image">       
+         </section>
+        <section class="data-section">
+            <h2>Data</h2>
+            <ul>
+                <li><span class="lebel">Area</label></Area>:</span> <span class="value">475 442 km²</span></li>
+                <li><span class="label">Population:</span> <span class="value">27.91,000,000</span></li>
+                <li><span class="label">Capital:</span> <span class="value">Yaounde</span></li>
+                <li><span class="label">Currency:</span> <span class="value">Fcfa</span></li>
+                <li><span class="label">Time Zone:</span> <span class="value">GMT-1</span></li>
+                <li><span class="label">Calling Code:</span> <span class="value">+237</span></li>
+
+            </ul>
+        </section>
+            <section class="weather-section">
+                <h2>Weather</h2>
+                <ul>
+                    <li><img src="images/weather.svg" alt="Weather Icon" class="weather-icon"></li>
+                    <li><span class="label">Temperature:</span> <span class="value">10 °C</span></li>
+                    <li><span class="label">Condition:</span> <span class="value">Partly Cloudy</span></li>
+                    <li><span class="label">Wind:</span> <span class="value">5 km/h</span></li>
+                    <li><span class="label">Wind Chill:</span> <span class="value wind-chill">N/A</span></li>
+                </ul>
+            </section>
+        
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>🎋Miamo Siedjouwa Vinick Christian 🎋 Cameroon</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
