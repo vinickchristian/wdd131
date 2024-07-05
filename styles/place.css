@@ -64,7 +64,7 @@ main {
 }
 
 .weather-section {
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
     width: 250px;
     height: 340px;
