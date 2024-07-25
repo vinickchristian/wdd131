@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+background-color: #36454f;
+
+}
+.logo img {
+  width: 100px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+
+nav .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav .menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+nav .menu a:hover {
+    border: solid 1px white;
+    color: yellow;
+}
+nav .hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2em;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+main {
+    margin: 20px 0;
+}
+h2{
+  color: #204188;
+  font-family: var(--heading-font);
+  font-size: 48px;
+}
+ .inspiration {
+    font-size: 24px;
+    font-style: italic;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.closing {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  line-height: 1.6;
+}
+   
+.cta {
+  padding: 2rem;
+}
+
+.cta a {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+  } 
+   footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+.sociallinks{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  justify-content: center;
+}
+.sociallinks img{
+  width: 30px;
+}
+@media screen and (max-width: 600px) {
+  nav .hamburger {
+      display: block;
+  }
+
+  nav .menu {
+      display: none;
+      flex-direction: column;
+  }
+
+  nav .menu.open {
+      display: flex;
+  }
+  
+  .map iframe {
+    width: 100%;
+    }
+    h1{
+      margin: 1rem;
+      font-size: 30px;
+      text-align: center;
+    }
+}
+
+
+   
+   

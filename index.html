@@ -1,61 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
-        <title> WDD 131 - Dynamic Web Fundamentals - Miamo Siedjouwa </title>
-        <meta name="description" content="Miamo siedjouwa vinick C., WDD 131 - Dynamic Web Fundamentals, Biography of my self">
-        <meta name="author" content="Miamo siedjouwa vinick">
-        <link rel="stylesheet" href="styles/base.css">
-        <script src="scripts/getdates.js" defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miamo siedjouwa vinick C., WDD 131 - Dynamic Web Fundamentals, project">
+    <meta name="author" content="Miamo siedjouwa vinick">
+    <title>Photographism</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Miamo Siedjouwa</h1>
+        <div class="container">
+        <div class="logo"> <img src="images/logo.png" alt="Photographism Site Logo"></div>
         <nav>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-            <a href="https://byui.instructure.com/">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
-            <a href=" ">Final Project</a>
+            <button class="hamburger">☰</button>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
+    </div>
     </header>
-    
-    <main class="container">
-        <section class="card">
-            <div class="one">
-                <h2>About Me</h2>
-                <img src="images/profile.jpg" alt="Hello my name is Miamo Siedjouwa Vinick" width="200">
-                <h3> Biography:</h3>
-                <p>Hello! My name is Miamo Siedjouwa Vinick Christian. I'm a student at BYU Idaho, and I'm taking web fundamentals this semester. It's challenging, but I know I can actually do it with flying colors. I'm also a member of the Church of Jesus Christ of Latter-day Saints. I also served a full-time mission in the DR Congo Kinshasa Mission.</p>
-                <h4>Cameroon</h4>
-                <div class="cameroon-info">
-                    <figure>
-                        <img src="images/cameroonflag.png" alt="Cameroon flag">
-                        <figcaption>Cameroon Flag</figcaption>
-                    </figure>
-                    <p>The Republic of Cameroon is a state in West-Central Africa located between Nigeria to the north-northwest, Chad to the north-northeast, the Central African Republic to the east, the Republic of Congo to the southeast, Gabon to the south, Equatorial Guinea to the southwest, and the Gulf of Guinea to the southwest. The official languages ​​are French and English for a country with a multitude of local languages.</p>
-                </div>
+    <main>
+        <section class="hero2">
+            <img src="images/hero-large.webp" alt="lens of a camera">
+            <h1>Welcome to Photographism</h1>
+        </section>
+        <section id="intro">
+            <h1>Experience the Thrill of Photography through my lens</h1>
+            <p>My photography style is all about documenting the real moments, the bits in between and the natural reactions. I am passionate about good imagery, good framing and composition.
+                I have been a Flytographer for over 8 years and after hundreds of shoots I can promise you we'll have an amazing time and the best photos to take home.
+                Photography has been the witness to my life journey throughout and I am glad to be doing the same to all my clients, capturing and documenting the perfect
+                 moments at all stages of their lives, with some editorial twists, from proposals, and maternity, to newborn babies, all the way to senior and graduations. I am an awarded photographer with my photos exhibited around the world.</p>
+        </section>
+        <section id="featured">
+            <h2>Featured Images</h2>
+            <div class="image-container">
+                <!-- Lazy loading images -->
+                <img src="images/photography.webp" alt="A photographer" loading="lazy">
+                <img src="images/photography1.webp" alt="Picture of  Miamo" loading="lazy">
+                <img src="images/photography3.webp" alt="A camera" loading="lazy">
+                <img src="images/photography2.webp" alt="Someone holding a camera" loading="lazy">
+                
             </div>
         </section>
-    
-        <section class="card">
-            <h2>Dynamic Web Fundamentals Resources</h2>
-            <h3>Resources:</h3>
-            <ul>
-                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
-                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
-                <li><a href="https://www.udemy.com/">Udemy</a></li>
-            </ul>
+        <p class="closing">
+            Thank you for visiting Photographism. We are dedicated to capturing the beauty of the world through our unique blend of photography and graphic design. Whether you are looking for professional photography services, creative graphic design, or a combination of both, we are here to bring your vision to life. Please explore our <a href="gallery.html">gallery</a> to see examples of our work and visit our <a href="contact.html">contact page</a> to get in touch with us. We look forward to collaborating with you and creating something extraordinary together.
+        </p>
+        <section class="cta">
+            <a href="contact.html">Contact Us!</a>
         </section>
     </main>
-
     <footer>
-        <p>©<span id="currentyear"></span>🎋Miamo Siedjouwa Vinick Christian 🎋 Cameroon</p>
-        <p id="lastModified"></p>
-    </footer>
+        <p>&copy; 🎋Miamo Siedjouwa Vinick Christian 🎋 Cameroon</p>
+        <nav class="sociallinks">
+          <a href="https://web.facebook.com/profile.php?id=61556979156794">
+            <img src="images/facebook.svg" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/in/vinick-christian-miamo-siedjouwa-04757a1b9/">
+            <img src="images/linkedin.svg" alt="linkedin">
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        </nav>
+      </footer>
 </body>
 </html>
